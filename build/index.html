@@ -3,26 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Laptop Nest</title>
+    <title>VOALA</title>
 
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
 </head>
 <body>
-    <section id="header">
-        <a href="#">lava</a>
-
+    <section id="header" class="hidden">
+        <!-- <a href="#">VALA</a> -->
+        <P class="bbx-logo" >VOALA</P>
+        <!--  -->
         <div>
-            <ul id="navbar">
-                <li><a href="/index.html" class="active">Home</a></li>
-                <li><a href="./shop.html">Shop</a></li>
-                <li><a href="/blog.html">Blog</a></li>
-                <li><a href="/about.html">About</a></li>
-                <li><a href="/contact.html">Contact</a></li>
-                <li><a href="/cart.html" id="lg-bag"><i class="fa-solid fa-bag-shopping"></i></a></li>
+            <ul id="navbar" >
+                <li><a href="/build/index.html" class="active">Home</a></li>
+                <li><a href="/build/shop.html">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="/build/about.html">About</a></li>
+                <li><a href="/build/contact.html">Contact</a></li>
+                <li><a href="/build/cart.html" id="lg-bag"><i class="fa-solid fa-bag-shopping"></i></a></li>
                 <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
             </ul>
         </div>
@@ -47,7 +49,7 @@
 
     <section id="feature" class="section-p1">
         <div class="fe-box">
-            <img src="/img/Avion _ Vecteur Gratuite.jfif" s width="100px" height="100px" alt="" srcset="">
+            <img src="./img/Avion _ Vecteur Gratuite.jfif" s width="100px" height="100px" alt="" srcset="">
             <h6>free shipping</h6>
         </div>
         <div class="fe-box">
@@ -131,7 +133,7 @@
             </div>
             
             <div class="pro">
-                <img src="/img/t-shirts/23206be4-a288-4d92-a8d4-be4dc73131ac.jfif" width="300px" height="300px" alt="" srcset="">
+                <img src="./img/t-shirts/23206be4-a288-4d92-a8d4-be4dc73131ac.jfif" width="300px" height="300px" alt="" srcset="">
                 <div class="des">
                     <span>adidas</span>
                     <h5>Cartoon artistic T-shirt</h5>
@@ -398,13 +400,13 @@
             <h3>Winter collection -50% OFF</h3>
         </div>
 
-        <div class="banner-box">
+        <div class="banner-box bbx-2">
            
             <h2>SEASONAL SALE</h2>
             <h3>Winter collection -50% OFF</h3>
         </div>
         
-        <div class="banner-box">
+        <div class="banner-box bbx-3">
            
             <h2>SEASONAL SALE</h2>
             <h3>Winter collection -50% OFF</h3>
@@ -428,7 +430,7 @@
     <footer class="section-p1">
         <div class="col">
             <h1
-            class="logo">LAPTOP NEST</h1>
+            class="logo bbx-logo exe-logo">VOALA</h1>
             <h4>Contact</h4>
             <p><strong>Address:</strong> ring road,kamwala south.Zambia</p>
             <p><strong>Phone:</strong> +260969958146/</p>
@@ -463,21 +465,39 @@
             <a href="#">Help</a>
         </div>
 
-        <div class="col install">
+        <!-- <div class="col install">
             <h4>install App</h4>
             <p>From App store or Google play</p>
             <div class="row">
                <img src="/img/Google Play App Store Icons Editorial Image - Illustration of global, game_ 159029210.jfif" height="70px" width="80px" alt="" srcset="">
             </div>
             <p>Secured Payment Getways</p>
-        </div>
+        </div> -->
 
         <div class="copyrights">
-            <p>@2024-Ecommece website</p> 
+            <P>@2025-VOALA</P>
         </div>
     </footer>
+    <!-- <script>
+        let lastScrollY = 0;
 
-    
+        const nav = document.getElementById('header');
+        window.addEventListener('scroll', ()=>{
+            const currentScrollY = window.scrollY
+            if ( currentScrollY > lastScrollY ) {
+
+                console.log('scroll Down');
+                nav.classList.add('hidden')
+
+            }else{
+                console.log('scroll up');
+                nav.classList.remove('hidden')
+            }
+            lastScrollY = currentScrollY
+        });
+    </script> -->
+
+    <script src="/build/js/main.js"></script>
 </body>
-<script src="./js/main.js"></script>
+
 </html>
